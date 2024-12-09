@@ -6,7 +6,7 @@ Install nodemon as npm install nodemon -g(install it globally)
 Provide the database connection link for a cloud database
 For a local database keep it as it is.
 Just initialize the program database will automaticlly get created as name taskList
-unless you chnage the in provided link
+unless you chnage the name of database in provided link
 Before you run the programme in terminal write npm install(so all the dependicies will get install)
 or you can install manully dependicies as given the project.json file
 as example npm install express cors dotenv 
