@@ -47,7 +47,7 @@ api for sign in-http://127.0.0.1:3000/api/user/signin
 
 *** token is only added to the get all task api so before checking the all task need to send the token via headers.
 Token you will get by signing in
-you can sign up as in the given api provide name, email phone and password
+you can sign up as in the given api provide name, email phone and password. 
 Password are kept safe by hash password
 as a demo you can login with email-joy@gmail.com and password-J@123
 
