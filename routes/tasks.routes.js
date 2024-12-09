@@ -28,7 +28,7 @@ taskRouter.get("/all",checkAuth,(req,res)=>{
 
 //creating end point for getting any task by its id;
 
-taskRouter.get("/find/:tid"(req,res)=>{
+taskRouter.get("/find/:tid",(req,res)=>{
     const taskId=req.params.tid
     taskModel.findById(taskId)
     .then((taskInfo)=>{
@@ -46,7 +46,7 @@ taskRouter.get("/find/:tid"(req,res)=>{
 })
 //creating get end point for pending task
 
-taskRouter.get("/findPending/"(req,res)=>{
+taskRouter.get("/findPending/",(req,res)=>{
     taskModel.findOne({status: 'pending'})
     .then((taskInfo)=>{
         if(taskInfo){
