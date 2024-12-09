@@ -45,7 +45,7 @@ As a bonus Sign up and Sign in is added and token middleware is added for Authen
 api for sign up-http://127.0.0.1:3000/api/user/signup
 api for sign in-http://127.0.0.1:3000/api/user/signin
 
-*** token is only added to the get all task api so before checking the all task need to send the tokwn via headers
+*** token is only added to the get all task api so before checking the all task need to send the token via headers
 token you will get by signing in
 you can sign up as in the given api provide name, email phone and password
 Password are kept safe by hash password
