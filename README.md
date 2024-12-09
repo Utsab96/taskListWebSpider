@@ -3,7 +3,7 @@ Project Name-TaskApi
 For setting the project copy the reposetory.
 Provide the database connection link for a cloud database
 For a local database keep it as it is.
-Just initilies the program database will automaticlly get created as name taskList
+Just initialize the program database will automaticlly get created as name taskList
 unless you chnage the in provided link
 
 Create a .env file for the environment provide your PORT and HOST
