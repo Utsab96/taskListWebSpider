@@ -1,0 +1,45 @@
+***Initialisation------
+The first thing for creating any repository npm init.
+
+then proivded the details as per the given instruction.
+
+After that I have installed all the required dependicies as express cors dotenv mongoose
+Then I opend the package.json file inside it i have chnage the main file name as app.js
+and created start for autosave as nodemon start.js
+
+***Creating the Server----
+Then I have created a file name as app.js
+
+inside it I have written the code for creating a server
+before i run the server i have created a .env file and inside it I have provided all the environment setup
+Then I have run the server as npm start
+
+
+***creating database connection------
+
+After creating the server I have created a folder named model 
+There I have provided the code and the detials for my mongodb database
+Then exported the file in the app.js
+Then my mongodb databse is conneted
+
+***Creating the database-----
+Then in the model foler I have created a file named as model.task.js
+There I have imported the connestion.js file for the mongodb connection
+There I have written all the collection required for the task List(as per the givn instraction)
+Then I have exported the file as taskModel so in router file we can access it.
+
+***Creating the Routes----
+Created a folder named as router in the main direcry
+Then indide the model folder I have created a file named as task.routes.js
+Then inside it I have created a taskRouter and exported it
+Then all the asked apis i have created 
+first I have created the POST api for adding the task
+And slowly the other apis as GET task that includes find task by their id and priority
+Then UPDATE api
+Then DELETE api
+****user model----
+Then I have reated a user model for sign up and sign in
+Then I have created the sign up api with the hash password
+Then I have created signin api 
+Then I hav created token to Authentication
+A middle ware is alos created to verify the user. 
