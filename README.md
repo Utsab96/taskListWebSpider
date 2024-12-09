@@ -2,7 +2,7 @@ Project Name-TaskApi
 
 For setting the project copy the reposetory.
 Download NodeJs mongodb. 
-Install nodemon as npm install nodemon -g(installing it globally)
+Install nodemon as npm install nodemon -g(install it globally)
 Provide the database connection link for a cloud database
 For a local database keep it as it is.
 Just initialize the program database will automaticlly get created as name taskList
