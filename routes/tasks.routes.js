@@ -1,5 +1,6 @@
 //importing the express
 const express=require('express');
+const checkAuth=require('../middleware/checkAuth')
 //requiring the taskmode
 const taskModel=require('../models/task.model')
 //creating router for task
@@ -7,7 +8,7 @@ const taskRouter=express.Router();
 
 
 //creating get end point for getting all the task
-taskRouter.get("/all",(req,res)=>{
+taskRouter.get("/all",checkAuth,(req,res)=>{
     taskModel.find()
     .then((taskInfo)=>{
         if(!taskInfo){
@@ -27,7 +28,7 @@ taskRouter.get("/all",(req,res)=>{
 
 //creating end point for getting any task by its id;
 
-taskRouter.get("/find/:tid",(req,res)=>{
+taskRouter.get("/find/:tid"(req,res)=>{
     const taskId=req.params.tid
     taskModel.findById(taskId)
     .then((taskInfo)=>{
@@ -45,7 +46,7 @@ taskRouter.get("/find/:tid",(req,res)=>{
 })
 //creating get end point for pending task
 
-taskRouter.get("/findPending/",(req,res)=>{
+taskRouter.get("/findPending/"(req,res)=>{
     taskModel.findOne({status: 'pending'})
     .then((taskInfo)=>{
         if(taskInfo){
