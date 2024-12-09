@@ -1,10 +1,15 @@
 Project Name-TaskApi
 
 For setting the project copy the reposetory.
+Download NodeJs mongodb
+install nodemon as npm install nodemon -g(installing it globally)
 Provide the database connection link for a cloud database
 For a local database keep it as it is.
 Just initialize the program database will automaticlly get created as name taskList
 unless you chnage the in provided link
+Before you run the programme in terminal write npm install(so all the dependicies will get install)
+or you can install manully dependicies as given the project.json file
+as example npm install express cors dotenv 
 
 Create a .env file for the environment provide your PORT and HOST
 after all the conncetion test the APIs
