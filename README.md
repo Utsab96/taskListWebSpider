@@ -40,7 +40,7 @@ api for updating any task-http://127.0.0.1:3000/api/task/update/tid/
 api for deleting any task-http://127.0.0.1:3000/api/task/delete/tid/
 ** here provide the task id in place of tid
 
-As a bonus Sign up and Sign in is added and token middleware is added for authotication
+As a bonus Sign up and Sign in is added and token middleware is added for Authentication 
 
 api for sign up-http://127.0.0.1:3000/api/user/signup
 api for sign in-http://127.0.0.1:3000/api/user/signin
